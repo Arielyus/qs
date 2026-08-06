@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
 
     // res.statusCode = 200;
     const url = req.url;
-    if (url.includes('.html') || url.includes('.js') || url.includes('.png') || url.includes('.jpg') || url.includes('.css') || url.includes('.apk'))
+    if (url.includes('.html') || url.includes('.js') || url.includes('.png') || url.includes('.jpg') || url.includes('.css') || url.includes('.apk') || url.includes('.ico'))
         getFile(req, res)
     else if (url == '/') {
         req.url = '/index.html';

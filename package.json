@@ -1,0 +1,14 @@
+{
+  "name": "qsend2",
+  "version": "0.0.0",
+  "description": "qsend2",
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "node": "22"
+  },
+  "author": {
+    "name": ""
+  }
+}
